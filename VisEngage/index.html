@@ -3,23 +3,32 @@
 <head>
 	<title>VisEngage Project</title>
 </head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<style type="text/css">
+	<style type="text/css">
+		.footer {
+		  bottom: 0;
+		  width: 100%;
+		  /* Set the fixed height of the footer here */
+		  height: 50px;
+		  line-height: 40px; /* Vertically center the text there */
+		  background-color: #f5f5f5;
+		}
+	</style>
+<!--Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-.footer {
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 50px;
-  line-height: 40px; /* Vertically center the text there */
-  background-color: #f5f5f5;
-}
-</style>
+	  ga('create', 'UA-87474917-3', 'auto');
+	  ga('send', 'pageview');
+	</script>
 
 <body>
 <!-- Fixed navbar -->
@@ -40,7 +49,8 @@
             <li><a href="example.html">Example</a></li>
             <!-- <li><a href="#contact">Contact</a></li> -->           
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
+        <!--/.nav-collapse -->
       </div>
     </nav>
 
@@ -51,11 +61,11 @@
 			<p>Engagement is an important aspect of user experience. While some researchers have investigated user engagement in the context of information visualization, there is still a lack of scholarship on the topic. After exploring the role and signiﬁcance of user engagement for information visualization, and discuss challenges in its characterization and assessment. We proposed VisEngage, a self-assessment questionnaire that provides insight into 11 different characteristics of user engagement.</p>
 	</div>
 
-	<div class="page-header"><h1>How to use VisEngage?</h1></div>
+	<h2>How to use VisEngage?</h2>
 		<p>The usage of this questionnaire is to be given to participants right after using the target visualization. The items describe participants’ experience or reaction, and ask for their degree of agreement. For each item, participants need to provide their response with 7 levels Likert-scale ranging from strongly agree to strongly disagree.</p>
 		<a href="example.html" type="button" class="btn btn-lg btn-info">Example of VisEngage Questionnaire</a>
 
-	<div class="page-header"><h1>Items</h1></div>
+	<h2>Items</h2>
 	<div class="list-group">
 		<div class="list-group-item">
 		<h4 class="list-group-item-heading">Aesthetics</h4>
