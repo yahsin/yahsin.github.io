@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VisEngage Project</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<style type="text/css">
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  line-height: 40px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+</style>
+
+<body>
+<!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">VisEngage</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">Example</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->           
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+<div class="container theme-showcase" role="main">
+	<div class="jumbotron">
+	<h2>Record Breaking Coasters</h2>
+		<p>Please explore the chart below and try to understand what it is communicating. Don't forget to move your mouse around and click on different elements within to chart during your exploration.</p>
+		<div class='tableauPlaceholder' id='viz1483167841271' style='position: center'>
+		<object class='tableauViz'  style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+			<param name='site_root' value='' />
+			<param name='name' value='RecordBreakingCoasters&#47;RecordBreakingCoasters' /><param name='tabs' value='no' />
+			<param name='toolbar' value='no' />
+			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;RecordBreakingCoasters&#47;RecordBreakingCoasters&#47;1.png' />
+			<param name='animate_transition' value='yes' />
+			<param name='display_static_image' value='yes' />
+			<param name='display_spinner' value='no' />
+			<param name='display_overlay' value='yes' />
+			<param name='display_count' value='no' />
+		</object>
+	</div>
+
+	<script type='text/javascript'>
+		var divElement = document.getElementById('viz1483167841271');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+		if ( divElement.offsetWidth > 800 ) { vizElement.style.width='804px';vizElement.style.height='769px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='804px';vizElement.style.height='769px';} else { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*1.77)+'px';}
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);
+	</script>
+		<p class="text-right">Author: <a href="https://public.tableau.com/profile/pdgilks#!/">Peter Gilks</a></p>
+	</div>
+
+	<div class="page-header"><h2>Self-Assessment User Experience</h2>
+		<p>Please answering following questions based on your experience during this trial.</p>
+	</div>
+		
+<div class="row">
+<!-- itemA -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I found its look and feel to be pleasing.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemA" id="itemA_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemA" id="itemA_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemA" id="itemA_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemA" id="itemA_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemA" id="itemA_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemA" id="itemA_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemA" id="itemA_1" value="1">Strong Disagree
+			</label>
+
+		</div>
+	</div>
+<!-- itemA end -->	
+<!-- itemB -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">The layout of this interactive chart is clear and balanced.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemB" id="itemB_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemB" id="itemB_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemB" id="itemB_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemB" id="itemB_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemB" id="itemB_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemB" id="itemB_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemB" id="itemB_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemB end -->	
+<!-- itemC -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I felt absorbed to the extent that I was not aware of my surroundings.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemC" id="itemC_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemC" id="itemC_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemC" id="itemC_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemC" id="itemC_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemC" id="itemC_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemC" id="itemC_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemC" id="itemC_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemC end -->	
+<!-- itemD start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, time seemed to pass quickly.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemD" id="itemD_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemD" id="itemD_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemD" id="itemD_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemD" id="itemD_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemD" id="itemD_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemD" id="itemD_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemD" id="itemD_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemD end -->	
+<!-- itemE start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I enjoyed and accepted any challenges it presented.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemE" id="itemE_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemE" id="itemE_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemE" id="itemE_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemE" id="itemE_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemE" id="itemE_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemE" id="itemE_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemE" id="itemE_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemE end -->	
+<!-- itemF start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I had to think carefully, deeply, or reflectively.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemF" id="itemF_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemF" id="itemF_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemF" id="itemF_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemF" id="itemF_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemF" id="itemF_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemF" id="itemF_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemF" id="itemF_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemF end -->	
+<!-- itemG start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, its functions and features worked as I expected.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemG" id="itemG_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemG" id="itemG_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemG" id="itemG_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemG" id="itemG_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemG" id="itemG_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemG" id="itemG_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemG" id="itemG_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemG end -->	
+<!-- itemH start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I felt in control.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemH" id="itemH_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemH" id="itemH_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemH" id="itemH_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemH" id="itemH_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemH" id="itemH_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemH" id="itemH_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemH" id="itemH_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemH end -->	
+<!-- itemI start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I learned something that I had not known before (e.g., a new fact, concept, or piece of information).</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemI" id="itemI_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemI" id="itemI_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemI" id="itemI_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemI" id="itemI_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemI" id="itemI_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemI" id="itemI_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemI" id="itemI_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemI end -->	
+<!-- itemJ start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I learned and figured out how to use it along the way.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemJ" id="itemJ_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemJ" id="itemJ_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemJ" id="itemJ_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemJ" id="itemJ_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemJ" id="itemJ_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemJ" id="itemJ_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemJ" id="itemJ_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemJ end -->	
+<!-- itemK start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I felt as though I was moving in or through it to learn about its content or message.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemK" id="itemK_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemK" id="itemK_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemK" id="itemK_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemK" id="itemK_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemK" id="itemK_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemK" id="itemK_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemK" id="itemK_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemK end -->	
+<!-- itemL start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I was exploring its features and content in a gradual fashion.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemL" id="itemL_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemL" id="itemL_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemL" id="itemL_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemL" id="itemL_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemL" id="itemL_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemL" id="itemL_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemL" id="itemL_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemL end -->	
+<!-- itemM start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I found myself imagining things not directly related to what I was seeing in the chart.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemM" id="itemM_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemM" id="itemM_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemM" id="itemM_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemM" id="itemM_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemM" id="itemM_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemM" id="itemM_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemM" id="itemM_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemM end -->	
+<!-- itemN start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I found myself generating new and original thoughts or ideas.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemN" id="itemN_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemN" id="itemN_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemN" id="itemN_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemN" id="itemN_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemN" id="itemN_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemN" id="itemN_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemN" id="itemN_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemN end -->	
+<!-- itemO start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I found myself concentrating on specific aspects or features of the chart.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemO" id="itemO_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemO" id="itemO_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemO" id="itemO_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemO" id="itemO_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemO" id="itemO_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemO" id="itemO_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemO" id="itemO_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemO end -->	
+<!-- itemP start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I had to pay attention to multiple things at the same time.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemP" id="itemP_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemP" id="itemP_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemP" id="itemP_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemP" id="itemP_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemP" id="itemP_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemP" id="itemP_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemP" id="itemP_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemP end -->	
+<!-- itemQ start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">The content or message of this interactive chart was interesting to me.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemQ" id="itemQ_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemQ" id="itemQ_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemQ" id="itemQ_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemQ" id="itemQ_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemQ" id="itemQ_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemQ" id="itemQ_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemQ" id="itemQ_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemQ end -->	
+<!-- itemR start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">The features or interactions provided in this interactive chart were interesting to me.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemR" id="itemR_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemR" id="itemR_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemR" id="itemR_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemR" id="itemR_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemR" id="itemR_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemR" id="itemR_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemR" id="itemR_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemR end -->	
+<!-- itemS start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">The look and feel of this interactive chart was novel and fresh.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemS" id="itemS_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemS" id="itemS_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemS" id="itemS_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemS" id="itemS_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemS" id="itemS_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemS" id="itemS_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemS" id="itemS_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemS end -->	
+<!-- itemT start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">The features or interactions provided in this interactive chart were novel and fresh.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemT" id="itemT_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemT" id="itemT_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemT" id="itemT_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemT" id="itemT_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemT" id="itemT_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemT" id="itemT_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemT" id="itemT_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemT end -->	
+<!-- itemU start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">While using this interactive chart, I experienced enjoyment from the chart in and of itself, and not because it was a means to an end.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemU" id="itemU_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemU" id="itemU_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemU" id="itemU_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemU" id="itemU_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemU" id="itemU_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemU" id="itemU_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemU" id="itemU_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemU end -->	
+<!-- itemV start -->	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">I would want to use this interactive chart if I saw it somewhere else and was not required or encouraged to use it.</h3>
+		</div>
+		<div class="panel-body">
+			<label class="radio-inline">
+				<input type="radio" name="itemV" id="itemV_7" value="7">Strong Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemV" id="itemV_6" value="6">Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemV" id="itemV_5" value="5">Slightly Agree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemV" id="itemV_4" value="4">Neutral
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemV" id="itemV_3" value="3">Slightly Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemV" id="itemV_2" value="2">Disagree
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="itemV" id="itemV_1" value="1">Strong Disagree
+			</label>
+		</div>
+	</div>
+<!-- itemV end -->	
+
+</div>
+	
+	
+</div>
+
+<!-- Fixed footer -->
+<footer class="footer">
+    <div class="container">
+      <p class="text-center">2017 - VisEngage Project</p>           
+    </div>    
+</footer>
+
+</body>
+</html>
