@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>VisEngage Project</title>
-	<script src="https://unpkg.com/feather-icons"></script>
+	<script type="text/javascript" src="iconwc.js"></script>
 </head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -18,6 +18,10 @@
 		  height: 50px;
 		  line-height: 40px; /* Vertically center the text there */
 		  background-color: #f5f5f5;
+		}
+		.glyph-icon svg {
+		width:16px;
+		height:16px;
 		}
 	</style>
 <!--Google Analytics -->
@@ -73,20 +77,26 @@
 
 
 	<h2>Existing Survey Instruments</h2>
-	<div class="well well-lg">
-		<p>We conducted a brief survey of relevant evaluation instruments, the authors searched for and collected relevant self-report instruments. The initial search was very broad; besides some general resources from HCI and UX handbooks, we also searched online using the following keywords: ``visualization'', ``user experience'', ``engagement'', ``communication'', ``persuasion'', ``emotion'', ``survey'', ``questionnaire'', ``scale'' and their various combinations.</p>
-		<p>3 inclusion criteria---each instrument should: (1) be concerned with human-technology relationships; (2) be associated with a publication, (3) not require specialized equipment.
-		</p>
-	</div>
-		<div class="thumbnail">
-			<img src="table1_v7.png"></img>
-			<div class="caption">24 survey instruments meeting all inclusion criteria, ordered chronologically. Rows are collected survey instruments, columns are characteristics of the survey instruments (   = “mostly satisﬁed”, K = “partially satisﬁed”, and X = “Yes”).</div>
+	<div class="row">
+		<div class="col-xs-5">
+			<div class="thumbnail">
+				<a href="table1_v8.png" target="_new"><img src="table1_v8.png"></img></a>
+				<div class="caption">Click to see the png version</div>
+			</div>
 		</div>
+		  <div class="col-xs-7">
+		  <p>We conducted a brief survey of relevant evaluation instruments, the authors searched for and collected relevant self-report instruments. The initial search was very broad; besides some general resources from HCI and UX handbooks, we also searched online using the following keywords: ``visualization'', ``user experience'', ``engagement'', ``communication'', ``persuasion'', ``emotion'', ``survey'', ``questionnaire'', ``scale'' and their various combinations.</p>
+			<p>3 inclusion criteria---each instrument should: (1) be concerned with human-technology relationships; (2) be associated with a publication, (3) not require specialized equipment.</p>
+		</div>		  
+		</div>
+	
+		
 	<div class="thumbnail">
-	<div class="table-responsive">
+	<div class="table-responsive{-sm}">
 	  <table class="table table-hover">
 		<thead>
       <tr>
+		<th> </th>	  
         <th>Name</th>
         <th>Year</th>
         <th>Main Construct</th>
@@ -98,45 +108,249 @@
     </thead>
     <tbody>
       <tr>
-        <td>System usability Scale (SUS)</td>
-        <td>1986</td>
-        <td>Usability</td>
-		<td>10</td>
-		<td> </td>
-		<td> </td>
-		<td>System/Technology</td>
-      </tr>
-      <tr>
-        <td>NASA Task Load Index (TLX)</td>
-        <td>1986</td>
-        <td>Subjective workload</td>
-		<td>6</td>
-		<td> </td>
-		<td> </td>
-		<td>Interface/System</td>
-      </tr>
-      <tr>
-        <td>Questionnaire for User Interface Satisfaction (QUIS)</td>
-        <td>1988</td>
-        <td>Satisfaction</td>
-		<td>27</td>
-		<td><i class="fas fa-check"></i></td>
-		<td><i class="fas fa-check"></i></td>
-		<td>Interface</td>
-      </tr>
-	  <tr>
-        <td>Perceived Usefulness and Ease of Use (PUEU)</td>
-        <td>1989</td>
-        <td>Usefulness and Ease of Use</td>
-		<td>12</td>
-		<td> </td>
-		<td><i class="fas fa-check"></i></td>
-		<td>System/Technology</td>
-      </tr>
+    <td>R1</td>
+    <td>System usability Scale (SUS)</td>
+    <td>1986</td>
+    <td>Usability</td>
+    <td>10</td>
+    <td></td>
+    <td></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R2</td>
+    <td>NASA Task Load Index (TLX)</td>
+    <td>1986</td>
+    <td>Subjective workload</td>
+    <td>6</td>
+    <td></td>
+    <td></td>
+    <td>Interface/System</td>
+  </tr>
+  <tr>
+    <td>R3</td>
+    <td>Questionnaire for User Interface Satisfaction (QUIS)</td>
+    <td>1988</td>
+    <td>Satisfaction</td>
+    <td>27</td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>Interface</td>
+  </tr>
+  <tr>
+    <td>R4</td>
+    <td>Perceived Usefulness and Ease of Use (PUEU)</td>
+    <td>1989</td>
+    <td>Usefulness and Ease of Use</td>
+    <td>12</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R5</td>
+    <td>The After-Scenario Questionnaire (ASQ)</td>
+    <td>1990</td>
+    <td>Satisfaction</td>
+    <td>4</td>
+    <td></td>
+    <td></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R6</td>
+    <td>The Post-Study System Usability Questionnaire (PSSUQ)</td>
+    <td>1992</td>
+    <td>Usability</td>
+    <td>16</td>
+    <td></td>
+    <td></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R7</td>
+    <td>Nielsen's Heuristic Evaluation</td>
+    <td>1994</td>
+    <td>Usability</td>
+    <td>10</td>
+    <td></td>
+    <td></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R8</td>
+    <td>Computer System Usability Questionnaire (CSUQ)</td>
+    <td>1995</td>
+    <td>Usability</td>
+    <td>19</td>
+    <td></td>
+    <td></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R9</td>
+    <td>Software Usability Measurement Inventory (SUMI)</td>
+    <td>1995</td>
+    <td>User experience</td>
+    <td>50</td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>Software</td>
+  </tr>
+  <tr>
+    <td>R10</td>
+    <td>Presence Questionnaire Item Stems</td>
+    <td>1998</td>
+    <td>Presence</td>
+    <td>32</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>Virtual environment</td>
+  </tr>
+  <tr>
+    <td>R11</td>
+    <td>Website Analysis and Measurement Inventory (WAMMI) Questionnaire</td>
+    <td>1998</td>
+    <td>User experience</td>
+    <td>20</td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>Website</td>
+  </tr>
+  <tr>
+    <td>R12</td>
+    <td>USE Questionnaire</td>
+    <td>2001</td>
+    <td>Usability</td>
+    <td>30</td>
+    <td></td>
+    <td></td>
+    <td>System</td>
+  </tr>
+  <tr>
+    <td>R13</td>
+    <td>Unified Theory on Acceptance and Use of Technology (UTAUT)</td>
+    <td>2003</td>
+    <td>Technology Acceptance</td>
+    <td>31</td>
+    <td></td>
+    <td></td>
+    <td>Technology</td>
+  </tr>
+  <tr>
+    <td>R14</td>
+    <td>Fun questionnaire</td>
+    <td>2005</td>
+    <td>User experience (fun)</td>
+    <td>14</td>
+    <td></td>
+    <td></td>
+    <td>Educational system</td>
+  </tr>
+  <tr>
+    <td>R15</td>
+    <td>Cognitive absorption and TAM</td>
+    <td>2005</td>
+    <td>TAM+cognitive absorption</td>
+    <td>22</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R16</td>
+    <td>The Single Ease Question (SEQ)</td>
+    <td>2006</td>
+    <td>Ease of use</td>
+    <td>1</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R17</td>
+    <td>Immersive Experience Questionnaire (IEQ)-a</td>
+    <td>2008</td>
+    <td>Experience of immersion</td>
+    <td>31</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>Video game</td>
+  </tr>
+  <tr>
+    <td>R18</td>
+    <td>Immersive Experience Questionnaire (IEQ)-b</td>
+    <td>2008</td>
+    <td>Experience of immersion</td>
+    <td>33</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>Video game</td>
+  </tr>
+  <tr>
+    <td>R19</td>
+    <td>User Experience Questionnaire (UEQ)</td>
+    <td>2008</td>
+    <td>User experience</td>
+    <td>26</td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R20</td>
+    <td>Gaming Engagement Questionnaire (GEQ)</td>
+    <td>2009</td>
+    <td>Deep engagement</td>
+    <td>19</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>Video game</td>
+  </tr>
+  <tr>
+    <td>R21</td>
+    <td>The Subjective Mental Effort Question (SMEQ)</td>
+    <td>2009</td>
+    <td>Ease of use</td>
+    <td>1</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R22</td>
+    <td>User Engagement Scale (UES)</td>
+    <td>2010</td>
+    <td>User engagement</td>
+    <td>31</td>
+    <td></td>
+    <td></td>
+    <td>System/Technology</td>
+  </tr>
+  <tr>
+    <td>R23</td>
+    <td>Measurement Model of User Engagement</td>
+    <td>2015</td>
+    <td>User engagement</td>
+    <td>12</td>
+    <td></td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td>Website</td>
+  </tr>
+  <tr>
+    <td>R24</td>
+    <td>Standardized User Experience Percentile Rank Questionnaire (SUPR-Q)</td>
+    <td>2015</td>
+    <td>User experience</td>
+    <td>8</td>
+    <td><img src="check.png" width=16px ></img></td>
+    <td></td>
+    <td>System/Technology</td>
+  </tr>
     </tbody>
 	  </table>
 	</div>
-		<div class="caption">24 survey instruments meeting all inclusion criteria, ordered chronologically. Rows are collected survey instruments, columns are characteristics of the survey instruments (<i data-feather="circle"></i> = “mostly satisfied”, <i data-feather="triangle"></i> = “partially satisfied”, and X = “Yes”).</div>
+		<div class="caption">24 survey instruments meeting all inclusion criteria, ordered chronologically. Rows are collected survey instruments, columns are characteristics of the survey instruments (<svg-icon><src href="si-glyph-circle.svg" /></svg-icon> = “mostly satisfied”, <svg-icon><src href="sprite.svg#si-glyph-triangle-up" /></svg-icon> = “partially satisfied”, and <img src="check.png" width=16px ></img> = “Yes”).</div>
 	</div>
 
 	<h2>Using our Survey Instrument</h3>	
@@ -158,6 +372,7 @@
       <p class="text-center">2018 - For CommVis Workshop</p>           
     </div>    
 </footer>
+
 
 </body>
 </html>
