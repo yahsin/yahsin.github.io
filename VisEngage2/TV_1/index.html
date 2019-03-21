@@ -11,7 +11,7 @@
 	fill: orangered;
 }
 .axis {
-  font: 10px sans-serif;
+  font: 15px sans-serif;
 }
 
 .axis path,
@@ -113,7 +113,7 @@ d3.tsv("VotingInformation.tsv", function(error, data){
     	.attr("transform", "translate(0," + height + ")")
     	.call(xAxis)
     	.selectAll("text")
-    	.style("font-size", "8px")
+    	.style("font-size", "10px")
       	.style("text-anchor", "end")
       	.attr("dx", "-.8em")
       	.attr("dy", "-.55em")
